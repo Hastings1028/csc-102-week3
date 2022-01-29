@@ -1,20 +1,20 @@
-<!--Zachary Hasting-->
+<!--Zachary Hastings-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--The script src= is linking the java script code I wrote making the html code cleaner-->
-    <script src="C:\Users\zackh\Desktop\csc102\Week 3\Startlaunch() {.js"></script>
+     <!--The script src= is linking the java script code I wrote making the html code cleaner-->
+    <script src="Startlaunch{.js"></script>
     <!--the link tag in this case is linking the css to the html giving it a cleaner look-->
-    <link rel="stylesheet" href="C:\Users\zackh\Desktop\csc102\Week 3\week3css {.css" type="text/css" />
-    <br>
-    <!--img is from UAT canves-->
+    <link rel="stylesheet" href="week3{.css" type="text/css" />
+<h1>UAT SPACE</h1>
+<!--img is from UAT canves-->
 <img src="UATspaceLogo.jpg"> 
 <!--page title-->
     <title>Java Script Loops</title>
 </head>
 <body>
-    <!--The h1 tag is giving the title of the page-->
-    <h1>Rocket Countdown</h1>
+     <!--The h1 tag is giving the title of the page-->
+    <h2>Rocket Countdown</h2>
     <!--The p tag is letting the user know what to do -->
     <p>Press the button to start the countdown.</p>
 <br>
@@ -22,7 +22,6 @@
 <br>
 <!--giving the page a button for the user to interact with -->
     <button type="button" onclick="Startlaunch()" class="Buttons">Start Launch</button>
-    <!--the id= tag is giving the java script a way to conect with the button-->
     <p id="Startlaunch"></p> 
 </body>
 </html>
