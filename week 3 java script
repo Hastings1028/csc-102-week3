@@ -1,22 +1,21 @@
-
-function Startlaunch() {
+nction Startlaunch() {
 
     var currTime = 10;
 
     for (var i = 1; i <= 11; i++) {
-        
+        // if i is equal to 11 then we blast off
         if (i == 11) {
             setTimeout(function () {
                 document.getElementById("Startlaunch").innerHTML = "Blastoff!";
             }, 1000 * i);
-            
+            // if i is less then 6 then we are half way there
         } else if (i > 6) {
             setTimeout(function () {
                 document.getElementById("Startlaunch").innerHTML =
                     "Half way there = " + currTime;
                 currTime = currTime - 1;
             }, 1000 * i);
-            
+            // didnt meet other conditions  
         } else {
             setTimeout(function () {
                 document.getElementById("Startlaunch").innerHTML = "time left  " + currTime;
